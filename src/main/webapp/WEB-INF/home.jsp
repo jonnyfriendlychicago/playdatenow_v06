@@ -32,6 +32,7 @@
     <h2>This is monday morning edit1.</h2>
     <h2>This is monday morning edit2.</h2>
     <h2>This is monday morning edit3.5.1.</h2>
+    <h2>application-prod.properties added</h2>
 
 </div><!-- end playdateList -->
 <jsp:include page="/WEB-INF/include/pageLayoutBottom.jsp" />
