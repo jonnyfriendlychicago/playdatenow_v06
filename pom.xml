@@ -48,11 +48,11 @@
             </exclusions>
         </dependency>
 
-<!--        added from appRunner documentation-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-rest</artifactId>
-        </dependency>
+<!--        added from appRunner documentation, but now taking out per JW chat-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-data-rest</artifactId>-->
+<!--        </dependency>-->
 
         <!--        first JRF entry starts below-->
 
@@ -78,16 +78,18 @@
             <version>3.6.0</version>
         </dependency>
 
-        <dependency> <!-- origin: https://login.codingdojo.com/m/325/9947/67332 -->
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>
+<!--        whacking below, to try to make this work with appRunner-->
+<!--        -->
+<!--        <dependency> &lt;!&ndash; origin: https://login.codingdojo.com/m/325/9947/67332 &ndash;&gt;-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-data-jpa</artifactId>-->
+<!--        </dependency>-->
 
-        <dependency> <!-- origin: https://login.codingdojo.com/m/325/9948/67353 --> <!-- also --> <!-- origin: https://login.codingdojo.com/m/325/9947/67332 -->
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <scope>runtime</scope>
-        </dependency>
+<!--        <dependency> &lt;!&ndash; origin: https://login.codingdojo.com/m/325/9948/67353 &ndash;&gt; &lt;!&ndash; also &ndash;&gt; &lt;!&ndash; origin: https://login.codingdojo.com/m/325/9947/67332 &ndash;&gt;-->
+<!--            <groupId>mysql</groupId>-->
+<!--            <artifactId>mysql-connector-java</artifactId>-->
+<!--            <scope>runtime</scope>-->
+<!--        </dependency>-->
 
         <dependency> <!-- origin: https://login.codingdojo.com/m/325/9948/67355 -->
             <groupId>org.springframework.boot</groupId>
@@ -112,17 +114,17 @@
                 </configuration>
             </plugin>
 
-<!--            adding below per jwy-->
-            <plugin>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.22.2</version>
-                <configuration>
-                    <includes>
-                        <include>TestFail.java</include>
-                    </includes>
-                    <skipTests>true</skipTests>
-                </configuration>
-            </plugin>
+<!--            adding below per jwy, but now taking it out too-->
+<!--            <plugin>-->
+<!--                <artifactId>maven-surefire-plugin</artifactId>-->
+<!--                <version>2.22.2</version>-->
+<!--                <configuration>-->
+<!--                    <includes>-->
+<!--                        <include>TestFail.java</include>-->
+<!--                    </includes>-->
+<!--                    <skipTests>true</skipTests>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
 
 
 
