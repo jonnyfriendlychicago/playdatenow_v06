@@ -7,9 +7,9 @@ build:
 run:
 #  command: java -Xms256m -jar target/playdatenow_v06-0.0.1-SNAPSHOT.jar .
 #  line above from appRunner sample code
-#  command: java -Xms256m -jar target/playdatenow_v06.war .
+  command: java -Xms256m -jar target/playdatenow_v06.war .
 #  line above was before we added the prod stuff
-  command: java -Xms256m -jar -Dspring.profiles.active=prod target/playdatenow_v06.war .
+#  command: java -Xms256m -jar -Dspring.profiles.active=prod target/playdatenow_v06.war .
 
   network:
     port: 8080
