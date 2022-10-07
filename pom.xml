@@ -48,7 +48,7 @@
             </exclusions>
         </dependency>
 
-<!--        added from appRunner documentation, but now taking out per JW chat, but puttin back in now -->
+<!--        added from appRunner documentation, but now taking out per JW chat, but putting back in now -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-rest</artifactId>
